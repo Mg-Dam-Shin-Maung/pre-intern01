@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+        function myFunction(c) 
+        {
+           document.getElementById("color").style.color = c;
+        }
+</script>
+<body>
+    <form>
+        <h2 id="color">Hello!Welcome to Our PreIntern Group.</h2>
+        <select id="dropdown" onchange="myFunction(this.options[this.selectedIndex].value);"> 
+          <option value="black">black</option>
+          <option value="red">red</option>
+          <option value="green">green</option>
+          <option value="blue">blue</option>
+        </select> 
+    </form>
+ </body>
+ </html>
